@@ -1,0 +1,26 @@
+<section class="pokedex-top">
+  <h3 class="pokedex-title">chatea con el poke-bot</h3>
+
+  <div class="input-area">
+    <input 
+      type="text" 
+      [(ngModel)]="userMessage"
+      placeholder="Escribe un mensaje..."
+      class="pokedex-input"
+    >
+    <button class="pokedex-btn" (click)="enviar()">Enviar</button>
+  </div>
+</section>
+
+<section class="holo-screen">
+  <div class="conversation">
+    <div *ngIf="userMessage" class="msg user-msg">
+      <strong>Tú:</strong> {{ userMessage }}
+    </div>
+
+    <div *ngIf="botMessage" class="msg bot-msg">
+      <strong>poke-bot:</strong> {{ botMessage }}
+    </div>
+  </div>
+</section>
+

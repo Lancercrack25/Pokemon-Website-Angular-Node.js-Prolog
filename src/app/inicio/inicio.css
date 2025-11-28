@@ -1,0 +1,29 @@
+
+h3{
+	color: rgb(239, 232, 14);
+	text-shadow: 4px 2px 2px rgb(6, 28, 87);
+	font-size: 35px;
+}
+
+section{
+	align-content: center;
+	align-items: center;
+	 width: 905px;
+ 	 margin: 0 auto; /* Centra horizontalmente */
+}
+ p
+{
+	color:snow;
+	text-shadow: 3px 2px 3px rgb(13, 13, 13);
+	font-size: 20px;
+}
+
+hr {
+  height: 2px; /* o el grosor que desees */
+  border: none; /* elimina el borde predeterminado */
+  background-color: rgb(39, 10, 204); /* color de la línea */
+  margin-top: -17px;
+}
+section img{
+	margin-left: 222px;
+}

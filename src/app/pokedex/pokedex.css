@@ -1,0 +1,74 @@
+h1,  h2, h3 {
+  color: #e7e70c; /* Amarillo oscuro */
+  margin-bottom: 0.5rem;
+ text-shadow:  3px 2px 2px rgb(39, 37, 37);
+ font-size: 28px;
+}
+section{
+    align-content: center;
+    justify-items: center;
+     padding: 10px;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+/* Líneas divisorias */
+section hr {
+  border: none;
+  height: 3px;
+  background: linear-gradient(to right, #8a070ef4, #fbfbfb); /* De amarillo fuerte a claro */
+  margin: 1rem 0;
+  border-radius: 2px;
+  width: 57%;
+}
+
+/* Párrafos */
+p {
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 3px rgb(13, 13, 13);
+  align-items: center;
+  justify-items: center;
+  padding-left: 70px
+}
+
+/* Lista */
+section ul {
+  list-style-type: '⭐'; /* Puedes usar 🟡 o 🔸 si quieres algo más tipo Pokémon */
+  padding-left: 1.5rem;
+   color: rgb(255, 255, 255);
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+   color: rgb(255, 255, 255);
+   text-shadow: 3px 2px 3px rgb(13, 13, 13);
+}
+.hero {
+	background-image: url('https://imgs.search.brave.com/hMjr24030bSZXDz_jyf1mBbTNh5JczU6F0LvouLUqLE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvYWxs/LXBva2Vtb24tcGlj/dHVyZXMtdmQzYzRo/a21pdmRrYnpqdi5q/cGc');
+	height: 550px;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+}
+
+.texto {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 89px;
+
+	/* Imagen de fondo dentro del texto */
+	background-image: url('https://wallpapers.com/images/featured/pokemon-hd-fazqcs1tmwwte1ap.jpg');
+	background-size: cover;
+	background-position-y: 40px;
+	/* Claves para que funcione el fondo en el texto */
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}

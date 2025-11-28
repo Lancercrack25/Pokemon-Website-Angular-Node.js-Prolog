@@ -1,0 +1,125 @@
+/* --- POKÉDEX SUPERIOR --- */
+.pokedex-top {
+  background: linear-gradient(180deg, #c22626, #8e1b1b);
+  padding: 20px;
+  border-radius: 18px 18px 6px 6px;
+  border: 3px solid #3a0000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.pokedex-title {
+  color: #fdfdfd;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px #ffe5e5;
+}
+
+/* --- Input y botón estilo Pokédex --- */
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pokedex-input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #3a0000;
+  background: #fff7f7;
+  font-size: 15px;
+  outline: none;
+}
+
+.pokedex-input:focus {
+  border-color: #ffbcbc;
+}
+
+.pokedex-btn {
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: none;
+  animation: brillo 4s linear infinite;
+  font-weight: bold;
+  color: #160f01;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 3px 5px rgba(111, 111, 111, 0.3);
+}
+
+.pokedex-btn:hover {
+  background: #ffe066;
+}
+
+/* --- PANTALLA HOLOGRÁFICA --- */
+.holo-screen {
+  background: rgba(120, 220, 255, 0.30);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(50, 200, 255, 0.5);
+  border-radius: 14px;
+  padding: 15px;
+  box-shadow:
+    0 0 12px rgba(0, 200, 255, 0.4),
+    inset 0 0 20px rgba(0, 200, 255, 0.3);
+}
+
+.conversation {
+  font-family: 'Roboto Mono', monospace;
+  color: #eaffff;
+}
+
+/* --- Burbuja de usuario --- */
+.msg {
+  margin-bottom: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.user-msg {
+  background: rgba(255, 255, 255, 0.15);
+  border-left: 3px solid #ffffff;
+  align-self: flex-end;
+  font-size: 24px;
+}
+
+/* --- Burbuja del bot --- */
+.bot-msg {
+  background: rgba(0, 255, 255, 0.12);
+  border-left: 3px solid #00eaff;
+  text-shadow: 0 0 5px #00ffff;
+  font-size: 24px;
+}
+
+
+@keyframes brillo {
+    0% {
+        background-color: #f7f7f7;
+        box-shadow: 0 0 11px #3498db; /* Sombra azul */
+    }
+    25% {
+        background-color: #e1ec0b; /* Verde */
+        box-shadow: 0 0 11px #2ecc71; /* Sombra verde */
+    }
+    50% {
+        background-color: #dd0474; /* Rojo */
+        box-shadow: 0 0 11px #e74c3c; /* Sombra roja */
+    }
+    75% {
+        background-color: #01f7d2; /* Amarillo */
+        box-shadow: 0 0 11px #f1c40f; /* Sombra amarilla */
+    }
+    100% {
+        background-color: #3afc09; /* Azul */
+        box-shadow: 0 0 11px #6c34db; /* Sombra azul */
+    }
+}
+
+.pokedex-top h3{
+  font-size: 47px;
+  text-shadow: 3px 2px 3px rgb(6, 40, 231);
+  color: yellow;
+}
+

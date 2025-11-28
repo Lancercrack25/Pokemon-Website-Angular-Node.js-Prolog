@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Press Start 2P', sans-serif;
+  margin-top: -3px;
+}
+
+.fondo-inicio {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://imgs.search.brave.com/0Zimz-uLZgRUzaIf7f042eUqErXf46f_Ko3S68zM4tc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9mb25kby1kZWdy/YWRhZG8tbWFsbGEt/bmFyYW5qYS1hbWFy/aWxsb181ODI2Mzct/NzExMC5qcGc_c2Vt/dD1haXNfaHlicmlk/Jnc9NzQwJnE9ODA');
+  transition: background-color 0.5s ease;
+}
+
+.fondo-pokedex {
+  background-color: rgb(232, 34, 34);
+  transition: background-color 0.5s ease;
+  
+}
+
+.fondo-chatbot {
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url('https://imgs.search.brave.com/29mRayvrxGWWaQUvZ94J-EDFflJD3aLqKzjuzHmosQ4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9waW50dXJhLXBh/aXNhamUtYXJib2xl/cy1jYXNhLWZvbmRv/XzEwODY3NjAtOTkw/ODAuanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MA');
+  transition: background-color 0.5s ease;
+}
+
+.swal2-popup {
+  font-family: 'Press Start 2P', cursive;
+  border: 3px solid #4e3de3;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(78, 61, 227, 0.6);
+}
+
+

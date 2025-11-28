@@ -1,0 +1,65 @@
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav {
+  display: flex;
+  gap: 20px; /* espacio entre cada enlace */
+  align-items: center;
+}
+
+
+header nav a{
+text-decoration: none;
+font-size: 22px;
+margin-right: 10px;
+color: rgb(255, 255, 255);
+text-shadow: 4px 2px 4px rgb(11, 50, 178);
+}
+
+.hero {
+	background-image: url('https://wallpapers.com/images/featured/pokemon-hd-fazqcs1tmwwte1ap.jpg');
+	height: 550px;
+    width: 100%;
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin-top: -12px;
+}
+
+.texto {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 105px;
+	background-image: url('https://imgs.search.brave.com/dggNb1ThCJE2PGIuLCwCTjhKCrgXqmfKqIZRkxbWzuM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/dmVjdG9yLXByZW1p/dW0vZm9uZG8tYWJz/dHJhY3RvLW9uZGEt/Zm9uZG8tYW1hcmls/bG8tYXp1bC1pbHVz/dHJhY2lvbi12ZWN0/b3JpYWwtZXBzMTBf/MjAyMjg0LTMwMy5q/cGc_c2VtdD1haXNf/aHlicmlkJnc9NzQw/JnE9ODA');
+	background-size: cover;
+	background-position-y: 40px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h1{
+    color: rgb(239, 232, 14);
+	text-shadow: 4px 2px 2px rgb(6, 28, 87);
+}
+
+header nav a:hover {
+  color: rgb(251, 234, 0); /* Cambia el color del texto al hacer hover */
+  text-shadow: 4px 2px 4px rgb(18, 24, 205); /* Ejemplo de nuevo efecto de sombra */
+  transition: all 0.3s ease; /* Suaviza la transición */
+}
