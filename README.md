@@ -176,7 +176,6 @@ Qué hace:
 **Ejecutar scripts descargados** de Internet solo si están firmados digitalmente por un editor confiable.
   Esto evita que scripts maliciosos descargados desde Internet se ejecuten automáticamente.
 
+<h2 style="font-size: 36px; margin-top: 40px;">Autor</h2>
 
-
-
-
+  <img width="509" height="584" alt="image" src="https://github.com/user-attachments/assets/48013920-e64a-413d-bc45-578349aae0e0" />
