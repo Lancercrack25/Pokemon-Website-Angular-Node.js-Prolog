@@ -99,6 +99,43 @@ La interfaz web funciona mediante una arquitectura distribuida:
 <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
 npm install -g @angular/cli
 </pre>
+
+<strong>Ahora si estas utlizando linux se recomienda instalar el repositorio oficial de Node.js (recomendado para distribuciones como Debian, Ubuntu y derivados)</strong>
+  1. Actualiza la lista de paquetes
+     
+     <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+      sudo apt update   
+      </pre>
+      
+  2. Instala los paquetes necesarios para añadir repositorios externos:
+     
+     <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+      sudo apt install curl software-properties-common     
+      </pre>
+
+  3. Añade el repositorio oficial de Node.js (por ejemplo, para la versión LTS 18.x):
+     
+      <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+      curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -      
+      </pre>
+      
+  4. Instala Node.js y npm:
+
+      <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+          sudo apt install -y nodejs   
+      </pre>
+
+  5. Verifica la instalacion:
+      <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+          node -v
+          npm -v    
+      </pre>
+  6. Finalmente instala angular con:
+        <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
+         npm install -g @angular/cli    
+        </pre>
+     
+
 <strong>Listo, ya solamente debes de clonar este repositorio para poder usar este proyecto</strong>
 
 <h2 style="font-size: 36px; margin-top: 40px;">¿Como ejecuto el proyecto?</h2>
