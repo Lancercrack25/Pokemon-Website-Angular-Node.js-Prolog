@@ -1,4 +1,5 @@
 <h1 style="color: #2ecc71; font-size: 48px;">Interfaz Web con Angular, Node.js y Prolog</h1>
+<img width="1286" height="838" alt="image" src="https://github.com/user-attachments/assets/378812a8-b0a5-40cb-aec7-cf196c491b98" />
 
 Este proyecto fue desarrollado utilizando Angular, Node.js y un sistema lógico implementado en Prolog.
 Su objetivo es permitir que una interfaz web moderna se comunique con un backend capaz de ejecutar razonamiento lógico mediante Prolog, además de integrar componentes visuales y datos externos.
@@ -43,7 +44,11 @@ La interfaz web funciona mediante una arquitectura distribuida:
 
 <h2 style="font-size: 36px; margin-top: 40px;">Características</h2>
 
-- **Frontend:**  
+- **Frontend:**
+  
+  <img width="479" height="340" alt="image" src="https://github.com/user-attachments/assets/b7d19f8e-4e27-4356-a80b-c3188bb9141f" /><br>
+
+
   Se definieron 5 componentes standalone, independientes, que conforman la interfaz:
   
   <ul>
@@ -54,7 +59,11 @@ La interfaz web funciona mediante una arquitectura distribuida:
     <li><strong>pokedex:</strong> contenido extra de la pokedex.</li>
   </ul>
 
-- **Backend:**  
+- **Backend:**
+  
+  <img width="424" height="342" alt="image" src="https://github.com/user-attachments/assets/e917d3d0-61bf-402b-87f6-67b2a1f2e86e" /><br>
+  
+
   Módulo encargado de la comunicación entre la interfaz y el motor lógico en Prolog. Contiene dos archivos principales:
   
   <ul>
@@ -62,7 +71,12 @@ La interfaz web funciona mediante una arquitectura distribuida:
     <li><code>chat.controler.js</code>: Se encarga de enviar y recibir datos del motor lógico.</li>
   </ul>
 
-- **Lógica (Prolog):**  
+
+- **Lógica (Prolog):**
+  
+  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/819e22fa-fec7-4e8c-8f6e-eefda2774cf4" /><br>
+  
+
   Motor lógico que procesa las reglas y devuelve los resultados al backend, permitiendo que la interfaz muestre información dinámica basada en la lógica definida.
   Ademas el archivo que contiene la base de conocimientos de nuestro chatbot hace lo siguiente
   <ul>
@@ -72,7 +86,7 @@ La interfaz web funciona mediante una arquitectura distribuida:
     <li>Se encarga de responder quien ganaria entre un pokemon y otro.</li>
     <li> Responde saludos y despedidas</li>
     <li>Responde palabras simples como si no, ok.</li>
-    <li>Eesponde algunas cosas con algo de humor</li>
+    <li>Responde algunas cosas con algo de humor</li>
   </ul>
 
 
@@ -85,7 +99,7 @@ La interfaz web funciona mediante una arquitectura distribuida:
 <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
 npm install -g @angular/cli
 </pre>
-<strong>Listo, ya solamente debes de clonar este repositorio para poder usar este proyecto</strong
+<strong>Listo, ya solamente debes de clonar este repositorio para poder usar este proyecto</strong>
 
 <h2 style="font-size: 36px; margin-top: 40px;">¿Como ejecuto el proyecto?</h2>
 para la ejecucion de este proyecto deberas abrir dos terminales shell las cuales ejecutaran individualmente el backend y el front-end
