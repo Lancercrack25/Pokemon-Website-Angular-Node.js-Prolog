@@ -139,7 +139,10 @@ npm install -g @angular/cli
 <strong>Listo, ya solamente debes de clonar este repositorio para poder usar este proyecto</strong>
 
 <h2 style="font-size: 36px; margin-top: 40px;">¿Como ejecuto el proyecto?</h2>
-para la ejecucion de este proyecto deberas abrir dos terminales shell las cuales ejecutaran individualmente el backend y el front-end
+Para la ejecucion de este proyecto desde windows deberas abrir dos terminales shell las cuales ejecutaran individualmente el backend y el front-end
+
+En caso de estar usando linux simplemente accede a la ruta donde guardaste el proyecto ya sea por la terminal o por la misma terminal de Vscode 
+
 En la primer terminal debes de ejecutar lo siguiente:
 
 <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
