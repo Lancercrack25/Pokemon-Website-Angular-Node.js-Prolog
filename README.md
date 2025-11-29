@@ -120,9 +120,9 @@ En la segunda terminal no debes de acceder a ninguna otra carpeta simplemente ej
 ng serve -o
 </pre>
 
-Te pedira unas cuantas cosas la prim era vez que ejecutas este comando solo debes de decirle que no en la terminal y asi despues se ejecutara la interfaz y automaticamente te redirigira en tu navegador a la interfaz
+Te pedira unas cuantas cosas la primera vez que ejecutas este comando solo debes de decirle que no en la terminal y asi despues se ejecutara la interfaz y automaticamente te redirigira en tu navegador a la interfaz
 
-**Nota importante**: si al ejecutar ng serve -o no te deja deberas de ejecutar desde una terminal shell y con permisos de administrador lo siguiente:
+**Nota importante**: (Solo para windows) si al ejecutar ng serve -o no te deja deberas de ejecutar desde una terminal shell y con permisos de administrador lo siguiente:
 <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
 Set-ExecutionPolicy RemoteSigned
 </pre>
