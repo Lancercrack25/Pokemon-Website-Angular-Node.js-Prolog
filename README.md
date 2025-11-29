@@ -80,7 +80,8 @@ La interfaz web funciona mediante una arquitectura distribuida:
 
 <strong>Para poder instalar correctamente este proyecto debes de tener instalado node.js, npm y angular</strong>
 <a href ="https://youtu.be/TPHxJQCQ0lE?si=nNOVht3StsGYTTSv"> accede aqui para intsalar node.js y npm</a>
-<strong>Una vez hecha la instalacion deberas abrir una terminal cmd con permisos de administrador y ejecutar el sigiente comando </strong
+
+<strong>Una vez hecha la instalacion deberas abrir una terminal cmd con permisos de administrador y ejecutar el sigiente comando </strong>
 <pre style="background:#f5f5f5; padding: 10px; border-radius: 5px;">
 npm install -g @angular/cli
 </pre>
