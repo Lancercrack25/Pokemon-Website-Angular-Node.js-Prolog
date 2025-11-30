@@ -1165,6 +1165,13 @@ responder(Palabras, _, Respuesta) :-
     ; Respuesta = "No pude determinar quién gana entre esos Pokémon."
     ),
     !.
+responder(Palabras, _, Respuesta) :-
+    % Preguntar HP
+    member("hp", Palabras),
+    buscar_pokemon(Palabras, Pkm),
+    hp_total(Pkm, 100, HP),
+    format(string(Resp), "~w tiene ~w puntos de HP a nivel 100.", [Pkm, HP]),
+    Respuesta = Resp, !.
 
 % capitalize tal cual:
 capitalize(In, Out) :-
